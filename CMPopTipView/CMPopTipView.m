@@ -533,7 +533,7 @@
 	}
 	
 	CGRect finalFrame = CGRectMake(x_b-_sidePadding,
-								   y_b,
+								   y_b + self.offsetY,
 								   _bubbleSize.width+_sidePadding*2,
 								   fullHeight);
     finalFrame = CGRectIntegral(finalFrame);
